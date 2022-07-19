@@ -10,7 +10,7 @@ def add_pokemons(count_of_pokemons)
     puts ask_name_and_color_pokemon
     pokemon_name = gets.chomp.to_s
     pokemon_color = gets.chomp.to_s
-    array.append({ name: pokemon_color, color: pokemon_name })
+    array.append({ name: pokemon_name, color: pokemon_color })
   end
   array
 end
